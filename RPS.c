@@ -12,7 +12,7 @@ void game() {
   if (!arena) {
     return;
   };
-
+  //Cast void *arena to a char (1byte) which helps to move exactly 1 spot on the memory space
   char *BytePtr = (char *)arena;
 
   // Create offset by which the memory is allocated
